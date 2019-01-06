@@ -1,0 +1,46 @@
+.CardButtons {
+  visibility: hidden;
+}
+
+.card-btns-container {
+  width: 100%;
+  display: flex;
+}
+
+.favorite-btn {
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 32px;
+  transition: .2s linear;
+
+  &:hover {
+    font-size: 40px;
+    transition: .2s linear;
+    cursor: pointer;
+  }
+}
+
+.favorite-selected {
+  color: yellow;
+
+  &:hover {
+    font-size: 40px;
+    transition: .2s linear;
+    cursor: pointer;
+  }
+}
+
+.fully-btn {
+  background-color: blue;
+  padding: 10px 20px;
+  margin: 0 20px;
+
+  &:hover {
+    background-color: green;
+  }
+}
+
+.delete-btn {
+  
+}

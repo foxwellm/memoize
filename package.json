@@ -5,6 +5,10 @@
   "dependencies": {
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
+    "codemirror": "^5.41.0",
+    "css-normalize": "0.0.1",
+    "react-codemirror": "^1.0.0",
+    "react-codemirror2": "^5.1.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"
   },

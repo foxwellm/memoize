@@ -1,0 +1,25 @@
+.nav-container {
+  width: 100%;
+  display: flex;
+}
+
+.sort-container {
+  display: flex;
+  width: 1000px;
+}
+
+.nav-btn {
+  // height: 40px;
+  background-color: blue;
+  padding: 10px 20px;
+  margin: 0 20px;
+  &:hover {
+    background-color: green;
+  }
+}
+
+// .fully-container {
+//   align-content: flex-end;
+//   margin-right: 0;
+// }
+

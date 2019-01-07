@@ -1,9 +1,10 @@
 .CodeMirror {
-  width: 95%;
-  height: 520px;
+  width: 90%;
+  height: 150px;
   border-radius: 8px;
   margin: 35px auto 20px;
   font-size: 1.1rem;
+  visibility: hidden;
 }
 
 .CodeMirror-scroll {

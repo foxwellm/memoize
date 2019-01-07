@@ -1,21 +1,10 @@
 import React, { Component } from 'react';
 import CardButtons from './CardButtons';
-// import { uid } from 'react-uid';
-
-
-import CodeMirror from '../../node_modules/react-codemirror/lib/Codemirror';
-
-import example from '../util/example';
-import '../../node_modules/codemirror/theme/ambiance.css';
+import { UnControlled as CodeMirror } from 'react-codemirror2';
+import '../../node_modules/codemirror/theme/neat.css';
 import '../../node_modules/codemirror/mode/javascript/javascript';
 
 export default class Card extends Component {
-
-constructor() {
-  super();
-
-}
-
 
   render() {
     const { currentPage, method, setFavorite, favorites } = this.props;
@@ -24,17 +13,34 @@ constructor() {
       <article id={`card-${method.index}`} className="Card" data-card={method.name}>
       <CardButtons setFavorite={setFavorite} name={method.name} favorites={favorites} currentPage={currentPage}/>
   
-        <p>{method.name}</p>
+        <span className="method-name">{method.name}()</span>
       
 
         <CodeMirror options={{
           mode: 'javascript',
-          theme: 'ambiance',
+          theme: 'neat',
           lineNumbers: true,
-          readOnly: true
+          readOnly: true,
         }}
-          value={example} />
+          value={method.example} />
 
+          <div className="additional-info-container">
+
+        <p>{method.syntax}</p>
+          {
+            method.Parameters.map(param => {
+            
+              return(
+                <div>
+                  <p>{Object.keys(param)}</p>
+                  <p>{Object.values(param)}</p>
+                </div>
+              )
+            })
+
+            }
+        </div>
+          
 
 
       </article>

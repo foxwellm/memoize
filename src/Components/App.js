@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/Main.scss';
+import HomePage from './HomePage';
+import Favorites from './Favorites';
 import Slideshow from './Slideshow';
 import Navbar from './Navbar';
 
@@ -82,21 +84,31 @@ export default class App extends Component {
   }
 
   render() {
-    const { currentPage, favorites, fully, currentIndex, stringMethods, arrayMethods, errors} = this.state;
+    const { currentPage, favorites, currentIndex, stringMethods, arrayMethods, errors } = this.state;
+
     if (stringMethods && arrayMethods && !errors) {
       return (
         <div className="App">
-          <Navbar setSlideshowPage={this.setSlideshowPage} currentPage={currentPage} />
-          {currentPage === 'homepage' ?
-            <div></div> :
-            <Slideshow currentMethods={this.state[`${currentPage}Methods`]}
-              favorites={favorites[`${currentPage}`] || []}
-              fully={fully}
-              setFavorite={this.setFavorite}
-              currentPage={currentPage}
-              currentIndex={currentIndex}
-              nextMethod={this.nextMethod}
-              prevMethod={this.prevMethod} />
+          <Navbar setSlideshowPage={this.setSlideshowPage}
+            currentPage={currentPage}
+            favorites={favorites} />
+          {
+            currentPage === 'homepage' ?
+              <HomePage />
+              : currentPage === 'favorites' ?
+                <Favorites
+                  favorites={favorites}
+                  stringMethods={stringMethods}
+                  arrayMethods={arrayMethods}
+                  setFavorite={this.setFavorite} />
+                : <Slideshow
+                  currentMethods={this.state[`${currentPage}Methods`]}
+                  favorites={favorites[`${currentPage}`] || []}
+                  setFavorite={this.setFavorite}
+                  currentPage={currentPage}
+                  currentIndex={currentIndex}
+                  nextMethod={this.nextMethod}
+                  prevMethod={this.prevMethod} />
           }
         </div>
       )

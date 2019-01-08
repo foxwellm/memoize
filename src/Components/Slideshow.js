@@ -4,7 +4,29 @@ import Card from './Card';
 export default class Slideshow extends Component {
 
   render() {
-    const { currentPage, currentMethods, setFavorite, favorites, currentIndex, nextMethod, prevMethod } = this.props;
+    const { currentPage, setFavorite, currentIndex, nextMethod, prevMethod, currentMethods, favorites } = this.props;
+    // let currentMethods;
+    // let {favorites } = this.props;
+    // let stringFavorites;
+    // let arrayFavorites;
+    // let stringFavoriteCount;
+    // let favoriteTracker;
+    // if (currentPage === "favorites") {
+    //   stringFavorites = stringMethods.filter(method => {
+    //     // debugger
+    //     return favorites.string.includes(method.name)
+    //   })
+    //   arrayFavorites = stringMethods.filter(method => {
+    //     return favorites.array.includes(method.name)
+    //   })
+    //   currentMethods = stringFavorites.concat(arrayFavorites)
+    //   stringFavoriteCount = currentMethods.length
+    // } else {
+    //   currentMethods = this.props[`${currentPage}Methods`]
+    //   favorites = favorites[`${currentPage}`] || []
+    // }
+    // debugger
+    // this.state[`${currentPage}Methods`]
     return (
       <div>
         <div className={`cards-slider active-slide-${currentIndex}`}>
@@ -17,8 +39,14 @@ export default class Slideshow extends Component {
           <div className="cards-slider-wrapper" style={{
             'transform': `translateX(-${currentIndex * (100 / currentMethods.length)}%)`
           }}>
-            {
-              currentMethods.map((method, i) => <Card method={method} key={method.index} setFavorite={setFavorite} favorites={favorites} currentPage={currentPage} />)
+            {    
+              currentMethods.map((method, i) => <Card method={method}
+                  key={i}
+                  setFavorite={setFavorite}
+                  favorites={favorites}
+                  currentPage={currentPage}
+                  cardNumber={i} />
+              )
             }
           </div>
           {currentIndex !== currentMethods.length - 1 &&

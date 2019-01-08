@@ -4,11 +4,6 @@
   padding: 20px 0;
 }
 
-.sort-container {
-  display: flex;
-  width: 1000px;
-}
-
 .nav-btn {
   // height: 40px;
   background-color: #48A3F3;
@@ -22,8 +17,6 @@
   }
 }
 
-// .fully-container {
-//   align-content: flex-end;
-//   margin-right: 0;
-// }
-
+.active-btn {
+  background-color: green;
+}

@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 
-
-export default class CardButtons extends Component {
+export default class FavoritesButton extends Component {
 
   render() {
 
-    const {currentPage, setFavorite, favorites, name} = this.props
+    const { currentPage, setFavorite, favorites, name } = this.props
 
     const cssClasses = [
       "favorite-btn",

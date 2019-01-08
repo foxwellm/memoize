@@ -7,10 +7,10 @@ import '../../node_modules/codemirror/mode/javascript/javascript';
 export default class Card extends Component {
 
   render() {
-    const { currentPage, method, setFavorite, favorites } = this.props;
+    const { currentPage, method, setFavorite, favorites, cardNumber } = this.props;
     return (
 
-      <article id={`card-${method.index}`} className="Card" data-card={method.name}>
+      <article id={`card-${cardNumber}`} className="Card" data-card={method.name}>
       <CardButtons setFavorite={setFavorite} name={method.name} favorites={favorites} currentPage={currentPage}/>
   
         <span className="method-name">{method.name}()</span>

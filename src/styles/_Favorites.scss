@@ -1,3 +1,29 @@
 .favorites-container {
-  
+  display: flex;
+  position: relative;
+}
+
+.favorites-btns-container {
+  background-color: cadetblue;
+  position: absolute;
+  height: 100%;
+}
+
+.favorite-popup-container {
+  margin: auto;
+  width: 600px;
+}
+
+.favorite-title {
+  margin: 5px 5px;
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.favorite-none {
+   margin: 5px 5px;
+   text-align: center;
+   padding: 5px;
 }

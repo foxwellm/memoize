@@ -41,7 +41,7 @@ export default class Navbar extends Component {
         <div className={this.btnClasses('homepage')} onClick={this.changePage} data-page={'homepage'} >MEMOIZE</div>
         <div className={this.btnClasses('string')} onClick={this.changePage} data-page={'string'}>String</div>
         <div className={this.btnClasses('array')} onClick={this.changePage} data-page={'array'}>Array</div>
-        <div className={this.btnClasses('favorite')} onClick={this.changePage} data-page={'favorites'}>Favorites ({currentFavoriteCount})</div>
+        <div className={this.btnClasses('favorites')} onClick={this.changePage} data-page={'favorites'}>Favorites ({currentFavoriteCount})</div>
       </div>
     )
   }

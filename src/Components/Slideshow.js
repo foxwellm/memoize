@@ -5,30 +5,9 @@ export default class Slideshow extends Component {
 
   render() {
     const { currentPage, setFavorite, currentIndex, nextMethod, prevMethod, currentMethods, favorites } = this.props;
-    // let currentMethods;
-    // let {favorites } = this.props;
-    // let stringFavorites;
-    // let arrayFavorites;
-    // let stringFavoriteCount;
-    // let favoriteTracker;
-    // if (currentPage === "favorites") {
-    //   stringFavorites = stringMethods.filter(method => {
-    //     // debugger
-    //     return favorites.string.includes(method.name)
-    //   })
-    //   arrayFavorites = stringMethods.filter(method => {
-    //     return favorites.array.includes(method.name)
-    //   })
-    //   currentMethods = stringFavorites.concat(arrayFavorites)
-    //   stringFavoriteCount = currentMethods.length
-    // } else {
-    //   currentMethods = this.props[`${currentPage}Methods`]
-    //   favorites = favorites[`${currentPage}`] || []
-    // }
-    // debugger
-    // this.state[`${currentPage}Methods`]
+
     return (
-      <div>
+      <div className="Slideshow">
         <div className={`cards-slider active-slide-${currentIndex}`}>
           {currentIndex !== 0 &&
             <div

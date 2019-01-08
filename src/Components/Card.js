@@ -8,15 +8,16 @@ export default class Card extends Component {
 
   render() {
     const { currentPage, method, setFavorite, favorites, cardNumber } = this.props;
+
     return (
 
-      <article id={`card-${cardNumber}`} className="Card" data-card={method.name}>
-      <CardButtons setFavorite={setFavorite} name={method.name} favorites={favorites} currentPage={currentPage}/>
+      <article id={`card-${cardNumber || 0}`} className="Card" data-card={method.name}>
+      <CardButtons setFavorite={setFavorite} name={method.name} favorites={favorites[currentPage] || favorites} currentPage={currentPage}/>
   
         <span className="method-name">{method.name}()</span>
       
 
-        <CodeMirror options={{
+        <CodeMirror className="CodeMirror" options={{
           mode: 'javascript',
           theme: 'neat',
           lineNumbers: true,

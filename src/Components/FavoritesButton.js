@@ -4,17 +4,11 @@ export default class FavoritesButton extends Component {
 
   render() {
 
-    const { currentPage, setFavorite, favorites, name } = this.props
-
-    const cssClasses = [
-      "favorite-btn",
-      favorites.includes(name) ? "favorite-selected" : null
-    ];
-
+    const { methodType, methodName, createPopup } = this.props
 
     return (
-      <div className="card-btns-container">
-        <div className={cssClasses.join(' ')} onClick={setFavorite} data-type={currentPage} data-method={name} ><i className="fas fa-star"></i></div>
+      <div className="favorites-btn-container" onClick={(event) => createPopup(event)} data-type={methodType} data-name={methodName}>
+      {methodName}
       </div>
     )
   }

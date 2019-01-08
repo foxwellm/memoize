@@ -2,6 +2,32 @@
   margin-left: 40px;
 }
 
-.additional-info-container {
-  visibility: hidden;
+.Slideshow>.cards-slider>.cards-slider-wrapper>.Card {
+  >.CodeMirror {
+    visibility: hidden;
+  }
+
+  >.additional-info-container {
+    visibility: hidden;
+  }
+
+}
+
+.Card {
+  width: 600px;
+
+  .additional-info-container {
+    padding: 20px;
+    max-height: 200px;
+    overflow: scroll;
+  }
+
+}
+
+.favorite-popup-container>.Card {
+  position: absolute;
+  top: 100px;
+  background-color: #48A3F3;
+  border-radius: 10px;
+
 }

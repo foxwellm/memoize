@@ -28,6 +28,6 @@ To run tests:
 ## Original Wireframe
 ![Wireframe](/images/Main.jpg)
 
-# Author
+### Author
 Matthew Foxwell
 

@@ -1,0 +1,23 @@
+@mixin btn-hover-effect($start-color, $end-color) {
+  cursor: pointer;
+  transition: .2s linear;
+  background-color: $start-color;
+
+  &:hover {
+    cursor: pointer;
+    transition: .2s linear;
+    background-color: $end-color;
+  }
+}
+
+@mixin svg-hover-effect($start-color, $transition-size) {
+  cursor: pointer;
+  transition: .2s linear;
+  color: $start-color;
+
+  &:hover {
+    cursor: pointer;
+    transition: .2s linear;
+    transform: scale($transition-size);
+  }
+}

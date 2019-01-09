@@ -1,0 +1,314 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slideshow should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Slideshow
+    currentIndex={0}
+    currentMethods={
+      Array [
+        "stringMethods",
+      ]
+    }
+    currentPage="string"
+    favorites={
+      Array [
+        "concat",
+        "charCodeAt",
+      ]
+    }
+    nextMethod={[MockFunction]}
+    prevMethod={[MockFunction]}
+    setFavorite={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="cards-slider active-slide-0"
+      >
+        <div
+          className="cards-slider-wrapper"
+          style={
+            Object {
+              "transform": "translateX(-0%)",
+            }
+          }
+        >
+          <Card
+            cardNumber={0}
+            currentPage="string"
+            favorites={
+              Array [
+                "concat",
+                "charCodeAt",
+              ]
+            }
+            method="stringMethods"
+            setFavorite={[MockFunction]}
+          />
+        </div>
+      </div>,
+      "className": "Slideshow",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          false,
+          <div
+            className="cards-slider-wrapper"
+            style={
+              Object {
+                "transform": "translateX(-0%)",
+              }
+            }
+          >
+            <Card
+              cardNumber={0}
+              currentPage="string"
+              favorites={
+                Array [
+                  "concat",
+                  "charCodeAt",
+                ]
+              }
+              method="stringMethods"
+              setFavorite={[MockFunction]}
+            />
+          </div>,
+          false,
+        ],
+        "className": "cards-slider active-slide-0",
+      },
+      "ref": null,
+      "rendered": Array [
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Card
+                cardNumber={0}
+                currentPage="string"
+                favorites={
+                  Array [
+                    "concat",
+                    "charCodeAt",
+                  ]
+                }
+                method="stringMethods"
+                setFavorite={[MockFunction]}
+              />,
+            ],
+            "className": "cards-slider-wrapper",
+            "style": Object {
+              "transform": "translateX(-0%)",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "function (item, index) {
+        if (typeof item === 'number' ||
+            typeof item === 'string') {
+            return index ? \\"idx-\\" + index : \\"val-\\" + item;
+        }
+        if (!map.has(item)) {
+            map.set(item, counter++);
+            return uid(item);
+        }
+        return 'uid' + map.get(item);
+    }",
+              "nodeType": "class",
+              "props": Object {
+                "cardNumber": 0,
+                "currentPage": "string",
+                "favorites": Array [
+                  "concat",
+                  "charCodeAt",
+                ],
+                "method": "stringMethods",
+                "setFavorite": [MockFunction],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        false,
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="cards-slider active-slide-0"
+        >
+          <div
+            className="cards-slider-wrapper"
+            style={
+              Object {
+                "transform": "translateX(-0%)",
+              }
+            }
+          >
+            <Card
+              cardNumber={0}
+              currentPage="string"
+              favorites={
+                Array [
+                  "concat",
+                  "charCodeAt",
+                ]
+              }
+              method="stringMethods"
+              setFavorite={[MockFunction]}
+            />
+          </div>
+        </div>,
+        "className": "Slideshow",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            false,
+            <div
+              className="cards-slider-wrapper"
+              style={
+                Object {
+                  "transform": "translateX(-0%)",
+                }
+              }
+            >
+              <Card
+                cardNumber={0}
+                currentPage="string"
+                favorites={
+                  Array [
+                    "concat",
+                    "charCodeAt",
+                  ]
+                }
+                method="stringMethods"
+                setFavorite={[MockFunction]}
+              />
+            </div>,
+            false,
+          ],
+          "className": "cards-slider active-slide-0",
+        },
+        "ref": null,
+        "rendered": Array [
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Card
+                  cardNumber={0}
+                  currentPage="string"
+                  favorites={
+                    Array [
+                      "concat",
+                      "charCodeAt",
+                    ]
+                  }
+                  method="stringMethods"
+                  setFavorite={[MockFunction]}
+                />,
+              ],
+              "className": "cards-slider-wrapper",
+              "style": Object {
+                "transform": "translateX(-0%)",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "function (item, index) {
+        if (typeof item === 'number' ||
+            typeof item === 'string') {
+            return index ? \\"idx-\\" + index : \\"val-\\" + item;
+        }
+        if (!map.has(item)) {
+            map.set(item, counter++);
+            return uid(item);
+        }
+        return 'uid' + map.get(item);
+    }",
+                "nodeType": "class",
+                "props": Object {
+                  "cardNumber": 0,
+                  "currentPage": "string",
+                  "favorites": Array [
+                    "concat",
+                    "charCodeAt",
+                  ],
+                  "method": "stringMethods",
+                  "setFavorite": [MockFunction],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          false,
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

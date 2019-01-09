@@ -9,18 +9,24 @@ describe('App', () => {
   const event = {
     target: {
       dataset: {
-        page: 'string' }
+        page: 'string'
       },
       parentElement: {
-        childNodes: ['', { srollLeft: 250 }]
+        dataset: {
+          type: 'string',
+          method: 'concat'
+        }
       }
     }
-  
+  }
 
   beforeEach(() => {
-    
     wrapper = shallow(
       <App />);
+
+    wrapper.setState({
+      favorites: {}
+    });
   });
 
   it('renders without crashing', () => {
@@ -33,21 +39,28 @@ describe('App', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
+  it('should save favorites to state and localStorage', () => {
+    expect(wrapper.state('favorites')).toEqual({});
+    wrapper.instance().setFavorite(event);
+    expect(wrapper.state('favorites')).toEqual({string: ['concat']});
+    expect(JSON.parse(localStorage.favorites)).toEqual({ string: ['concat'] });
+  })
+
   it('should increase state of currentIndex by 1 when nextMethod is called', () => {
     expect(wrapper.state('currentIndex')).toEqual(0);
     wrapper.instance().nextMethod();
     expect(wrapper.state('currentIndex')).toEqual(1);
   })
 
-  it('should increase state of currentIndex by 1 when nextMethod is called', () => {
-     //set currentIndex = 1
+  it('should decrease state of currentIndex by 1 when prevMethod is called', () => {
+    wrapper.instance().nextMethod();
     expect(wrapper.state('currentIndex')).toEqual(1);
     wrapper.instance().prevMethod();
     expect(wrapper.state('currentIndex')).toEqual(0);
   })
 
   it('should change currentPage depending on what was selected and reset state.currentIndex to 0', () => {
-    //set currentIndex = 1
+    wrapper.instance().nextMethod();
     expect(wrapper.state('currentPage')).toEqual('homepage');
     wrapper.instance().setSlideshowPage(event);
     expect(wrapper.state('currentPage')).toEqual('string');

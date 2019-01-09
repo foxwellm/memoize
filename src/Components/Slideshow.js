@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Card from './Card';
+import { uid } from 'react-uid';
 
 export default class Slideshow extends Component {
 
@@ -18,9 +19,10 @@ export default class Slideshow extends Component {
           <div className="cards-slider-wrapper" style={{
             'transform': `translateX(-${currentIndex * (100 / currentMethods.length)}%)`
           }}>
-            {    
-              currentMethods.map((method, i) => <Card method={method}
-                  key={i}
+            {
+              currentMethods.map((method, i) =>
+                <Card method={method}
+                  key={uid}
                   setFavorite={setFavorite}
                   favorites={favorites}
                   currentPage={currentPage}
@@ -31,9 +33,9 @@ export default class Slideshow extends Component {
           {currentIndex !== currentMethods.length - 1 &&
             <div
               className="next-btn"
-              onClick={() => nextMethod(currentMethods)}
-
-            ><i className="fas fa-arrow-circle-right"></i></div>
+              onClick={() => nextMethod(currentMethods)}>
+              <i className="fas fa-arrow-circle-right"></i>
+            </div>
           }
         </div>
       </div>

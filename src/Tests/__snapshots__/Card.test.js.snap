@@ -1,0 +1,477 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Card
+    cardNumber={0}
+    currentPage="string"
+    favorites={
+      Array [
+        "concat",
+      ]
+    }
+    method={
+      Object {
+        "Parameters": Array [
+          Object {
+            "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+          },
+        ],
+        "Return": "A new Array instance.",
+        "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+        "index": 0,
+        "iterator": false,
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat",
+        "mutator": false,
+        "name": "concat",
+        "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+      }
+    }
+    setFavorite={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <CardButtons
+          currentPage="string"
+          favorites={
+            Array [
+              "concat",
+            ]
+          }
+          name="concat"
+          setFavorite={[MockFunction]}
+        />,
+        <span
+          className="method-name"
+        >
+          concat
+          ()
+        </span>,
+        <UnControlled
+          className="CodeMirror"
+          options={
+            Object {
+              "lineNumbers": true,
+              "mode": "javascript",
+              "readOnly": true,
+              "theme": "neat",
+            }
+          }
+          value="  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]"
+        />,
+        <div
+          className="additional-info-container"
+        >
+          <p>
+            var new_array = old_array.concat(value1, value2, ..., valueN)
+          </p>
+          <div>
+            <p>
+              valueN
+            </p>
+            <p>
+              Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.
+            </p>
+          </div>
+        </div>,
+      ],
+      "className": "Card",
+      "data-card": "concat",
+      "id": "card-0",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "currentPage": "string",
+          "favorites": Array [
+            "concat",
+          ],
+          "name": "concat",
+          "setFavorite": [MockFunction],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "concat",
+            "()",
+          ],
+          "className": "method-name",
+        },
+        "ref": null,
+        "rendered": Array [
+          "concat",
+          "()",
+        ],
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "className": "CodeMirror",
+          "options": Object {
+            "lineNumbers": true,
+            "mode": "javascript",
+            "readOnly": true,
+            "theme": "neat",
+          },
+          "value": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p>
+              var new_array = old_array.concat(value1, value2, ..., valueN)
+            </p>,
+            Array [
+              <div>
+                <p>
+                  valueN
+                </p>
+                <p>
+                  Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.
+                </p>
+              </div>,
+            ],
+          ],
+          "className": "additional-info-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+            },
+            "ref": null,
+            "rendered": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p>
+                  valueN
+                </p>,
+                <p>
+                  Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.
+                </p>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "valueN",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "valueN",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+                ],
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "article",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <CardButtons
+            currentPage="string"
+            favorites={
+              Array [
+                "concat",
+              ]
+            }
+            name="concat"
+            setFavorite={[MockFunction]}
+          />,
+          <span
+            className="method-name"
+          >
+            concat
+            ()
+          </span>,
+          <UnControlled
+            className="CodeMirror"
+            options={
+              Object {
+                "lineNumbers": true,
+                "mode": "javascript",
+                "readOnly": true,
+                "theme": "neat",
+              }
+            }
+            value="  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]"
+          />,
+          <div
+            className="additional-info-container"
+          >
+            <p>
+              var new_array = old_array.concat(value1, value2, ..., valueN)
+            </p>
+            <div>
+              <p>
+                valueN
+              </p>
+              <p>
+                Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.
+              </p>
+            </div>
+          </div>,
+        ],
+        "className": "Card",
+        "data-card": "concat",
+        "id": "card-0",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "currentPage": "string",
+            "favorites": Array [
+              "concat",
+            ],
+            "name": "concat",
+            "setFavorite": [MockFunction],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "concat",
+              "()",
+            ],
+            "className": "method-name",
+          },
+          "ref": null,
+          "rendered": Array [
+            "concat",
+            "()",
+          ],
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "CodeMirror",
+            "options": Object {
+              "lineNumbers": true,
+              "mode": "javascript",
+              "readOnly": true,
+              "theme": "neat",
+            },
+            "value": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
+                var new_array = old_array.concat(value1, value2, ..., valueN)
+              </p>,
+              Array [
+                <div>
+                  <p>
+                    valueN
+                  </p>
+                  <p>
+                    Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.
+                  </p>
+                </div>,
+              ],
+            ],
+            "className": "additional-info-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+              },
+              "ref": null,
+              "rendered": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p>
+                    valueN
+                  </p>,
+                  <p>
+                    Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.
+                  </p>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "valueN",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "valueN",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "article",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

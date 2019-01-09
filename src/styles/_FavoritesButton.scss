@@ -1,10 +1,6 @@
 .favorites-btn-container {
   margin: 5px 5px;
-  background-color: green;
   text-align: center;
   padding: 5px;
-
-  &:hover {
-    background-color: blue;
-  }
+  @include btn-hover-effect(green, blue);
 }

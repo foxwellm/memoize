@@ -1,17 +1,15 @@
 .favorites-container {
   display: flex;
   position: relative;
-}
 
-.favorites-btns-container {
-  background-color: cadetblue;
-  position: absolute;
-  height: 100%;
-}
+  .favorites-btns-container {
+    position: absolute;
+  }
 
-.favorite-popup-container {
-  margin: auto;
-  width: 600px;
+  .favorite-popup-container {
+    margin: auto;
+    width: 600px;
+  }
 }
 
 .favorite-title {
@@ -20,10 +18,10 @@
   padding: 5px;
   font-size: 30px;
   text-decoration: underline;
-}
 
-.favorite-none {
-   margin: 5px 5px;
-   text-align: center;
-   padding: 5px;
+  .favorite-none {
+    margin: 5px 5px;
+    text-align: center;
+    padding: 5px;
+  }
 }

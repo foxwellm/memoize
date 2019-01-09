@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FavoritesButton from './FavoritesButton';
 import Card from './Card';
+import { uid } from 'react-uid';
 
 export default class Favorites extends Component {
 
@@ -25,16 +26,9 @@ export default class Favorites extends Component {
     })
   }
 
-  closePopup() {
-    this.setState({
-      popupMethod: null
-    })
-  }
-
   render() {
     const { popupType, popupMethod } = this.state;
     const { favorites, stringMethods, arrayMethods, setFavorite } = this.props;
-
     let stringFavorites = stringMethods.filter(method => {
       return favorites.string.includes(method.name)
     })
@@ -50,7 +44,11 @@ export default class Favorites extends Component {
             stringFavorites.length === 0 ?
               <div className="favorite-none">No String Favorites Yet</div>
               : stringFavorites.map(method => {
-                return <FavoritesButton methodType={'string'} methodName={method.name} createPopup={this.createPopup} />
+                return <FavoritesButton
+                  key={uid}
+                  methodType={'string'}
+                  methodName={method.name}
+                  createPopup={this.createPopup} />
               })
           }
 
@@ -59,14 +57,22 @@ export default class Favorites extends Component {
             arrayFavorites.length === 0 ?
               <div className="favorite-none">No Array Favorites Yet</div>
               : arrayFavorites.map(method => {
-                return <FavoritesButton methodType={'array'} methodName={method.name} createPopup={this.createPopup} />
+                return <FavoritesButton
+                  key={uid}
+                  methodType={'array'}
+                  methodName={method.name}
+                  createPopup={this.createPopup} />
               })
           }
         </div>
         <div className="favorite-popup-container">
           {
-            popupMethod ? <Card method={popupMethod} setFavorite={setFavorite}
-              favorites={favorites} currentPage={popupType} /> : null
+            popupMethod ? <Card
+              method={popupMethod}
+              setFavorite={setFavorite}
+              favorites={favorites}
+              currentPage={popupType} /> 
+              : null
           }
         </div>
       </div>

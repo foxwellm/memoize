@@ -12,38 +12,34 @@ export default class Card extends Component {
     return (
 
       <article id={`card-${cardNumber || 0}`} className="Card" data-card={method.name}>
-      <CardButtons setFavorite={setFavorite} name={method.name} favorites={favorites[currentPage] || favorites} currentPage={currentPage}/>
-  
+        <CardButtons
+          setFavorite={setFavorite}
+          name={method.name}
+          favorites={favorites[currentPage] || favorites}
+          currentPage={currentPage} />
         <span className="method-name">{method.name}()</span>
-      
-
-        <CodeMirror className="CodeMirror" options={{
-          mode: 'javascript',
-          theme: 'neat',
-          lineNumbers: true,
-          readOnly: true,
-        }}
+        <CodeMirror
+          className="CodeMirror"
+          options={{
+            mode: 'javascript',
+            theme: 'neat',
+            lineNumbers: true,
+            readOnly: true,
+          }}
           value={method.example} />
-
-          <div className="additional-info-container">
-
-        <p>{method.syntax}</p>
+        <div className="additional-info-container">
+          <p>{method.syntax}</p>
           {
             method.Parameters.map(param => {
-            
-              return(
+              return (
                 <div>
                   <p>{Object.keys(param)}</p>
                   <p>{Object.values(param)}</p>
                 </div>
               )
             })
-
-            }
+          }
         </div>
-          
-
-
       </article>
     )
   }

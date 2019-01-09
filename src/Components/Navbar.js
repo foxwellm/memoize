@@ -4,7 +4,7 @@ export default class Navbar extends Component {
   constructor() {
     super()
     this.state = {
-      currentActivePage: 'string'
+      currentActivePage: 'homepage'
     }
   }
 
@@ -27,7 +27,6 @@ export default class Navbar extends Component {
     ].join(' ')
     return cssClasses
   }
-
 
   render() {
     const { favorites } = this.props

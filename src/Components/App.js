@@ -10,7 +10,7 @@ export default class App extends Component {
   constructor() {
     super();
     this.state = {
-      currentPage: 'string',
+      currentPage: 'homepage',
       stringMethods: null,
       arrayMethods: null,
       errors: null,
@@ -63,6 +63,7 @@ export default class App extends Component {
 
   setSlideshowPage = (event) => {
     const currentPage = event.target.dataset.page
+
     this.setState({
       currentPage,
       currentIndex: 0
@@ -71,6 +72,7 @@ export default class App extends Component {
 
   nextMethod = () => {
     const currentIndex = this.state.currentIndex + 1;
+
     this.setState({
       currentIndex
     })
@@ -78,6 +80,7 @@ export default class App extends Component {
 
   prevMethod = () => {
     const currentIndex = this.state.currentIndex - 1;
+
     this.setState({
       currentIndex
     })
@@ -113,9 +116,9 @@ export default class App extends Component {
         </div>
       )
     } else if (errors) {
-      return (<span>Something went wrong</span>)
+      return (<span>Error</span>)
     } else {
-      return (<div>...Loading...</div>)
+      return (<div>Loading</div>)
     }
   }
 }

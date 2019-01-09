@@ -1,0 +1,1403 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Favorites
+    arrayMethods={
+      Array [
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 0,
+          "iterator": false,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat",
+          "mutator": false,
+          "name": "concat",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "target": "Zero based index at which to copy the sequence to. If negative, target will be counted from the end.",
+            },
+            Object {
+              "start": "Zero based index at which to start copying elements from. If negative, start will be counted from the end.",
+            },
+            Object {
+              "end": "Zero based index at which to end copying elements from. copyWithin copies up to but not including end. If negative, end will be counted from the end.",
+            },
+          ],
+          "Return": "The modified array.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 1,
+          "iterator": false,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat",
+          "mutator": true,
+          "name": "copyWithin",
+          "syntax": "arr.copyWithin(target, start, end)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "callback": "Function to test for each element, taking three arguments:",
+            },
+            Object {
+              "element": "The current element being processed in the array.",
+            },
+            Object {
+              "index": "The index of the current element being processed in the array.",
+            },
+            Object {
+              "array": "The array every was called upon.",
+            },
+            Object {
+              "thisArg": "Value to use as this when executing callback.",
+            },
+          ],
+          "Return": "true if the callback function returns a truthy value for every array element; otherwise, false.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 2,
+          "iterator": true,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every",
+          "mutator": null,
+          "name": "every",
+          "syntax": "arr.every(callback(element, index, array), thisArg)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 3,
+          "iterator": false,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill",
+          "mutator": true,
+          "name": "fill",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 4,
+          "iterator": true,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
+          "mutator": null,
+          "name": "filter",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 5,
+          "iterator": true,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find",
+          "mutator": null,
+          "name": "find",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 6,
+          "iterator": true,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex",
+          "mutator": null,
+          "name": "findIndex",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 7,
+          "iterator": true,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach",
+          "mutator": null,
+          "name": "forEach",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 8,
+          "iterator": null,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from",
+          "mutator": null,
+          "name": "from",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 9,
+          "iterator": false,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes",
+          "mutator": false,
+          "name": "includes",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 10,
+          "iterator": false,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf",
+          "mutator": false,
+          "name": "indexOf",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 11,
+          "iterator": false,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray",
+          "mutator": null,
+          "name": "isArray",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 12,
+          "iterator": false,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join",
+          "mutator": false,
+          "name": "join",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 13,
+          "iterator": true,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/keys",
+          "mutator": null,
+          "name": "keys",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 14,
+          "iterator": false,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf",
+          "mutator": false,
+          "name": "lastIndexOf",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 15,
+          "iterator": null,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of",
+          "mutator": null,
+          "name": "of",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 16,
+          "iterator": true,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
+          "mutator": null,
+          "name": "map",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 17,
+          "iterator": false,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop",
+          "mutator": true,
+          "name": "pop",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 18,
+          "iterator": false,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push",
+          "mutator": true,
+          "name": "push",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 19,
+          "iterator": true,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce",
+          "mutator": null,
+          "name": "reduce",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 20,
+          "iterator": false,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse",
+          "mutator": true,
+          "name": "reverse",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 21,
+          "iterator": false,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift",
+          "mutator": true,
+          "name": "shift",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 22,
+          "iterator": false,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice",
+          "mutator": false,
+          "name": "slice",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 23,
+          "iterator": true,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some",
+          "mutator": null,
+          "name": "some",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 24,
+          "iterator": false,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort",
+          "mutator": true,
+          "name": "sort",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 25,
+          "iterator": false,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice",
+          "mutator": true,
+          "name": "splice",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 26,
+          "iterator": false,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString",
+          "mutator": false,
+          "name": "toString",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 27,
+          "iterator": false,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift",
+          "mutator": true,
+          "name": "unshift",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "valueN": "Arrays and/or values to concatenate into a new array. If valueN is undefined, concat returns a shallow copy of the existing array on which it is called. See the description below for more details.",
+            },
+          ],
+          "Return": "A new Array instance.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 28,
+          "iterator": true,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values",
+          "mutator": null,
+          "name": "values",
+          "syntax": "var new_array = old_array.concat(value1, value2, ..., valueN)",
+        },
+      ]
+    }
+    favorites={
+      Object {
+        "array": Array [
+          "every",
+          "forEach",
+        ],
+        "string": Array [
+          "concat",
+          "charCodeAt",
+        ],
+      }
+    }
+    setFavorite={[MockFunction]}
+    stringMethods={
+      Array [
+        Object {
+          "Parameters": Array [
+            Object {
+              "index": "An integer between 0 and 1-less-than the length of the string. If no index is provided, the default is 0, so the first character in the string is returned.",
+            },
+          ],
+          "Return value": "A string representing the character (exactly one UTF-16 code unit) at the specified index; empty string if index is out of range.",
+          "example": "  var sentence = 'The quick dog.';
+  var index = 4;
+
+  console.log(sentence.charAt(index));
+  // expected output: \\"q\\"",
+          "index": 0,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt",
+          "name": "charAt",
+          "syntax": "str.concat(string2, string3, ..., stringN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "index": "An integer greater than or equal to 0 and less than the length of the string; if it is not a number, it defaults to 0.",
+            },
+          ],
+          "Return value": "A number representing the UTF-16 code unit value of the character at the given index; NaN if index is out of range.",
+          "example": "  var sentence = 'The quick dog.';
+  var index = 4;
+
+  console.log(sentence.charCodeAt(index))
+  // expected output: 113",
+          "index": 1,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt",
+          "name": "charCodeAt",
+          "syntax": "str.charCodeAt(index)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var str1 = 'Hello';
+  var str2 = 'World';
+
+  console.log(str1.concat(' ', str2));
+  // expected output: \\"Hello World\\"",
+          "index": 2,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat",
+          "name": "concat",
+          "syntax": "str.concat(string2, string3, ..., stringN)",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 3,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith",
+          "name": "endsWith",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 4,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes",
+          "name": "includes",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 5,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf",
+          "name": "indexOf",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 6,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf",
+          "name": "lastIndexOf",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 7,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd",
+          "name": "padEnd",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 8,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart",
+          "name": "padStart",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 9,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat",
+          "name": "repeat",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 10,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace",
+          "name": "replace",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 11,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search",
+          "name": "search",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 12,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice",
+          "name": "slice",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 13,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split",
+          "name": "split",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 14,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWitht",
+          "name": "startsWith",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 15,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring",
+          "name": "substring",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 16,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase",
+          "name": "toUpperCase",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 17,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim",
+          "name": "trim",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 18,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimEnd",
+          "name": "trimEnd",
+        },
+        Object {
+          "Parameters": Array [
+            Object {
+              "string2...stringN": "Strings to concatenate to this string.",
+            },
+          ],
+          "Return value": "A new string containing the combined text of the strings provided.",
+          "example": "  var array1 = ['a', 'b', 'c'];
+  var array2 = ['d', 'e', 'f'];
+
+  console.log(array1.concat(array2));
+  // expected output: Array [\\"a\\", \\"b\\", \\"c\\", \\"d\\", \\"e\\", \\"f\\"]",
+          "index": 19,
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimStart",
+          "name": "trimStart",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="favorites-btns-container"
+        >
+          <div
+            className="favorite-title"
+          >
+            String Methods
+          </div>
+          <FavoritesButton
+            createPopup={[Function]}
+            methodName="charCodeAt"
+            methodType="string"
+          />
+          <FavoritesButton
+            createPopup={[Function]}
+            methodName="concat"
+            methodType="string"
+          />
+          <div
+            className="favorite-title"
+          >
+            Array Methods
+          </div>
+          <FavoritesButton
+            createPopup={[Function]}
+            methodName="every"
+            methodType="array"
+          />
+          <FavoritesButton
+            createPopup={[Function]}
+            methodName="forEach"
+            methodType="array"
+          />
+        </div>,
+        <div
+          className="favorite-popup-container"
+        />,
+      ],
+      "className": "favorites-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="favorite-title"
+            >
+              String Methods
+            </div>,
+            Array [
+              <FavoritesButton
+                createPopup={[Function]}
+                methodName="charCodeAt"
+                methodType="string"
+              />,
+              <FavoritesButton
+                createPopup={[Function]}
+                methodName="concat"
+                methodType="string"
+              />,
+            ],
+            <div
+              className="favorite-title"
+            >
+              Array Methods
+            </div>,
+            Array [
+              <FavoritesButton
+                createPopup={[Function]}
+                methodName="every"
+                methodType="array"
+              />,
+              <FavoritesButton
+                createPopup={[Function]}
+                methodName="forEach"
+                methodType="array"
+              />,
+            ],
+          ],
+          "className": "favorites-btns-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "String Methods",
+              "className": "favorite-title",
+            },
+            "ref": null,
+            "rendered": "String Methods",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "function (item, index) {
+        if (typeof item === 'number' ||
+            typeof item === 'string') {
+            return index ? \\"idx-\\" + index : \\"val-\\" + item;
+        }
+        if (!map.has(item)) {
+            map.set(item, counter++);
+            return uid(item);
+        }
+        return 'uid' + map.get(item);
+    }",
+            "nodeType": "class",
+            "props": Object {
+              "createPopup": [Function],
+              "methodName": "charCodeAt",
+              "methodType": "string",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "function (item, index) {
+        if (typeof item === 'number' ||
+            typeof item === 'string') {
+            return index ? \\"idx-\\" + index : \\"val-\\" + item;
+        }
+        if (!map.has(item)) {
+            map.set(item, counter++);
+            return uid(item);
+        }
+        return 'uid' + map.get(item);
+    }",
+            "nodeType": "class",
+            "props": Object {
+              "createPopup": [Function],
+              "methodName": "concat",
+              "methodType": "string",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Array Methods",
+              "className": "favorite-title",
+            },
+            "ref": null,
+            "rendered": "Array Methods",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "function (item, index) {
+        if (typeof item === 'number' ||
+            typeof item === 'string') {
+            return index ? \\"idx-\\" + index : \\"val-\\" + item;
+        }
+        if (!map.has(item)) {
+            map.set(item, counter++);
+            return uid(item);
+        }
+        return 'uid' + map.get(item);
+    }",
+            "nodeType": "class",
+            "props": Object {
+              "createPopup": [Function],
+              "methodName": "every",
+              "methodType": "array",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "function (item, index) {
+        if (typeof item === 'number' ||
+            typeof item === 'string') {
+            return index ? \\"idx-\\" + index : \\"val-\\" + item;
+        }
+        if (!map.has(item)) {
+            map.set(item, counter++);
+            return uid(item);
+        }
+        return 'uid' + map.get(item);
+    }",
+            "nodeType": "class",
+            "props": Object {
+              "createPopup": [Function],
+              "methodName": "forEach",
+              "methodType": "array",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": null,
+          "className": "favorite-popup-container",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="favorites-btns-container"
+          >
+            <div
+              className="favorite-title"
+            >
+              String Methods
+            </div>
+            <FavoritesButton
+              createPopup={[Function]}
+              methodName="charCodeAt"
+              methodType="string"
+            />
+            <FavoritesButton
+              createPopup={[Function]}
+              methodName="concat"
+              methodType="string"
+            />
+            <div
+              className="favorite-title"
+            >
+              Array Methods
+            </div>
+            <FavoritesButton
+              createPopup={[Function]}
+              methodName="every"
+              methodType="array"
+            />
+            <FavoritesButton
+              createPopup={[Function]}
+              methodName="forEach"
+              methodType="array"
+            />
+          </div>,
+          <div
+            className="favorite-popup-container"
+          />,
+        ],
+        "className": "favorites-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="favorite-title"
+              >
+                String Methods
+              </div>,
+              Array [
+                <FavoritesButton
+                  createPopup={[Function]}
+                  methodName="charCodeAt"
+                  methodType="string"
+                />,
+                <FavoritesButton
+                  createPopup={[Function]}
+                  methodName="concat"
+                  methodType="string"
+                />,
+              ],
+              <div
+                className="favorite-title"
+              >
+                Array Methods
+              </div>,
+              Array [
+                <FavoritesButton
+                  createPopup={[Function]}
+                  methodName="every"
+                  methodType="array"
+                />,
+                <FavoritesButton
+                  createPopup={[Function]}
+                  methodName="forEach"
+                  methodType="array"
+                />,
+              ],
+            ],
+            "className": "favorites-btns-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "String Methods",
+                "className": "favorite-title",
+              },
+              "ref": null,
+              "rendered": "String Methods",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "function (item, index) {
+        if (typeof item === 'number' ||
+            typeof item === 'string') {
+            return index ? \\"idx-\\" + index : \\"val-\\" + item;
+        }
+        if (!map.has(item)) {
+            map.set(item, counter++);
+            return uid(item);
+        }
+        return 'uid' + map.get(item);
+    }",
+              "nodeType": "class",
+              "props": Object {
+                "createPopup": [Function],
+                "methodName": "charCodeAt",
+                "methodType": "string",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "function (item, index) {
+        if (typeof item === 'number' ||
+            typeof item === 'string') {
+            return index ? \\"idx-\\" + index : \\"val-\\" + item;
+        }
+        if (!map.has(item)) {
+            map.set(item, counter++);
+            return uid(item);
+        }
+        return 'uid' + map.get(item);
+    }",
+              "nodeType": "class",
+              "props": Object {
+                "createPopup": [Function],
+                "methodName": "concat",
+                "methodType": "string",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Array Methods",
+                "className": "favorite-title",
+              },
+              "ref": null,
+              "rendered": "Array Methods",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "function (item, index) {
+        if (typeof item === 'number' ||
+            typeof item === 'string') {
+            return index ? \\"idx-\\" + index : \\"val-\\" + item;
+        }
+        if (!map.has(item)) {
+            map.set(item, counter++);
+            return uid(item);
+        }
+        return 'uid' + map.get(item);
+    }",
+              "nodeType": "class",
+              "props": Object {
+                "createPopup": [Function],
+                "methodName": "every",
+                "methodType": "array",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "function (item, index) {
+        if (typeof item === 'number' ||
+            typeof item === 'string') {
+            return index ? \\"idx-\\" + index : \\"val-\\" + item;
+        }
+        if (!map.has(item)) {
+            map.set(item, counter++);
+            return uid(item);
+        }
+        return 'uid' + map.get(item);
+    }",
+              "nodeType": "class",
+              "props": Object {
+                "createPopup": [Function],
+                "methodName": "forEach",
+                "methodType": "array",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": null,
+            "className": "favorite-popup-container",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
